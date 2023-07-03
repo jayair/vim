@@ -33,6 +33,7 @@ My personal vim setup for the Mac. Uses [MacVim](https://macvim.org).
 
 8. Enable format on save
    - Add to `:CocConfig`
+
      ```
      {
        "coc.preferences.formatOnSaveFiletypes": [
