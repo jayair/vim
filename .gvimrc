@@ -16,6 +16,7 @@ syn on
 set scs
 set ic
 set hlsearch
+set incsearch
 
 " error bells
 set belloff=all
