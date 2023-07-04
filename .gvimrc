@@ -1,6 +1,3 @@
-" Packages
-packadd pink-moon
-
 " Split navigation
 nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
@@ -20,8 +17,8 @@ set scs
 set ic
 set hlsearch
 
-set noerrorbells
-set vb t_vb=
+" error bells
+set belloff=all
 
 " status bar
 set ruler
@@ -33,4 +30,4 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 
-colorscheme pink-moon
+colorscheme nord

@@ -11,10 +11,9 @@ My personal vim setup for the Mac. Uses [MacVim](https://macvim.org).
 
 2. Add configs, [`.vimrc`](.vimrc) and [`.gvimrc`](.gvimrc)
 
-3. Add colorscheme [Pink Moon](https://github.com/sts10/vim-pink-moon)
-   - Copy [file](https://github.com/sts10/vim-pink-moon/blob/master/colors/pink-moon.vim) to `.vim/pack/colors/opt/pink-moon/colors/pink-moon.vim`
-   - Load package in `.gvimrc` with `packadd pink-moon`
-   - Enable with `colorscheme pink-moon`
+3. Add colorscheme [Nord](https://github.com/nordtheme/vim/tree/main)
+   - Copy [file](https://github.com/nordtheme/vim/blob/main/colors/nord.vim) to `.vim/pack/colors/opt/nord/colors/nord.vim`
+   - Enable with `colorscheme nord`
 
 4. [Enable GitHub Copilot](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=vimneovim)
 
