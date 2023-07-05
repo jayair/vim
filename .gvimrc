@@ -7,6 +7,7 @@ nmap <C-l> <C-w>l
 " backups
 set nobackup
 set nowritebackup
+set directory=~/.vim/swap//
 
 " editing
 set ai

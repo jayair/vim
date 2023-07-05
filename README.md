@@ -10,9 +10,10 @@ My personal vim setup for the Mac. Uses [MacVim](https://macvim.org).
    - Add `export PATH="/Applications/MacVim.app/Contents/bin:$PATH"` to `.zshrc`
 
 2. Add configs, [`.vimrc`](.vimrc) and [`.gvimrc`](.gvimrc)
+   - Create temp dir for swap files, `~/.vim/swap`
 
 3. Add colorscheme [Nord](https://github.com/nordtheme/vim/tree/main)
-   - Copy [file](https://github.com/nordtheme/vim/blob/main/colors/nord.vim) to `.vim/pack/colors/opt/nord/colors/nord.vim`
+   - Copy [file](https://github.com/nordtheme/vim/blob/main/colors/nord.vim) to `~/.vim/pack/colors/opt/nord/colors/nord.vim`
    - Enable with `colorscheme nord`
 
 4. [Enable GitHub Copilot](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=vimneovim)
