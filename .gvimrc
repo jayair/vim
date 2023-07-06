@@ -1,3 +1,6 @@
+" font
+set guifont=SF\ Mono:h12
+
 " split navigation
 nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
