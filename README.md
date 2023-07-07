@@ -25,6 +25,4 @@ My personal vim setup for the Mac. Uses [MacVim](https://macvim.org).
    - Install with [native package manager](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim#using-vim8s-native-package-manager)
    - Install tsserver with `:CocInstall coc-tsserver`
 
-8. Load configs
-   - Clone repo into `~/.vim`
-   - Create temp dir for swap files, `~/.vim/swap`
+8. Load configs, clone repo into `~/.vim`
