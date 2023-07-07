@@ -1,1 +1,4 @@
-*.swp
+*
+!vimrc
+!README.md
+!coc-settings.json
