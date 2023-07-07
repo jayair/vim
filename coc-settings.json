@@ -1,0 +1,12 @@
+{
+  // Disable selecting first option in autocomplete
+  "suggest.noselect": true,
+  "suggest.enablePreselect": false,
+  // Enable format on save
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}
