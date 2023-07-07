@@ -32,8 +32,10 @@ set incsearch
 set belloff=all
 
 " Status bar
-set ruler
-set nu
+if has("gui_running")
+  set ruler
+  set nu
+endif
 
 " Spaces
 set tabstop=2
@@ -47,11 +49,11 @@ set expandtab
 " Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 " delays and poor user experience
 set updatetime=300
-" Always show the signcolumn, otherwise it would shift the text each time
-" diagnostics appear/become resolved
-set signcolumn=yes
-" Use <c-space> to trigger completion
 if has("gui_running")
+  " Always show the signcolumn, otherwise it would shift the text each time
+  " diagnostics appear/become resolved
+  set signcolumn=yes
+  " Use <c-space> to trigger completion
   inoremap <silent><expr> <c-space> coc#refresh()
 endif
 " Use K to show documentation in preview window
