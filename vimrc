@@ -1,7 +1,9 @@
 " Load plugins in .vim/plugins/start
 packloadall
 
+if has("gui_running")
 colorscheme nord
+endif
 
 " fzf
 set rtp+=/opt/homebrew/opt/fzf
