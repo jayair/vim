@@ -1,3 +1,6 @@
+" Load plugins in .vim/plugins/start
+packloadall
+
 colorscheme nord
 
 " fzf
@@ -42,6 +45,10 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+
+" Prettier format on save
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
 
 " coc.vim helpers
 " https://github.com/neoclide/coc.nvim#example-vim-configuration

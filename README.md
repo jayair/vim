@@ -26,3 +26,7 @@ My personal vim setup for the Mac. Uses [MacVim](https://macvim.org).
 8. Enable TS autocomplete with [coc.nvim](https://github.com/neoclide/coc.nvim)
    - Install with [native package manager](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim#using-vim8s-native-package-manager)
    - Install tsserver with `:CocInstall coc-tsserver`
+
+9. Enable format on save with [Prettier](https://prettier.io)
+   - Install [vim-prettier](https://github.com/prettier/vim-prettier#install) to `.vim/pack/plugins/start` and enable with `packloadall`
+   - Install prettier by running `npm install` in `.vim/pack/plugins/start/vim-prettier` 
