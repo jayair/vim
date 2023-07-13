@@ -8,6 +8,8 @@ set rtp+=/opt/homebrew/opt/fzf
 map <C-P> :GFiles<CR>
 " Ctrl-F to search
 map <C-F> :Rg<CR>
+" Remap :Sex to :S, instead of :Snippets
+command S Sex
 
 " Font
 set guifont=SF\ Mono:h12
