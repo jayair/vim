@@ -18,20 +18,17 @@ My personal vim setup for the Mac. Uses [MacVim](https://macvim.org). Support fo
 
 5. [Enable GitHub Copilot](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=vimneovim)
 
-6. Enable fuzzy file search with [fzf](https://github.com/junegunn/fzf)
+6. Enable fuzzy search with [fzf](https://github.com/junegunn/fzf)
 
    - Install fzf, `brew install fzf`
+   - Add [rg](https://github.com/BurntSushi/ripgrep) for search in files with `brew install ripgrep`
+   - Add [fzf.vim](https://github.com/junegunn/fzf.vim), `git clone https://github.com/junegunn/fzf.vim.git` in `.vim/pack/plugins/start`
 
-7. Replace [fd](https://github.com/sharkdp/fd) as default find command for fzf to respect `.gitignore`
-
-   - Install fd, `brew install fd`
-   - Add `export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix'` to `.zshrc`
-
-8. Enable TS autocomplete with [coc.nvim](https://github.com/neoclide/coc.nvim)
+7. Enable TS autocomplete with [coc.nvim](https://github.com/neoclide/coc.nvim)
 
    - Install with [native package manager](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim#using-vim8s-native-package-manager)
    - Install tsserver with `:CocInstall coc-tsserver`
 
-9. Enable format on save with [Prettier](https://prettier.io)
-   - Install [vim-prettier](https://github.com/prettier/vim-prettier#install) to `.vim/pack/plugins/start` and enable with `packloadall`
+8. Enable format on save with [Prettier](https://prettier.io)
+   - Install [vim-prettier](https://github.com/prettier/vim-prettier#install) to `.vim/pack/plugins/start`
    - Install prettier by running `npm install` in `.vim/pack/plugins/start/vim-prettier`
