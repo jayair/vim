@@ -3,7 +3,8 @@ colorscheme nord
 endif
 
 " fzf.vim
-set rtp+=/opt/homebrew/opt/fzf
+" set rtp+=/opt/homebrew/opt/fzf
+set rtp+=/usr/local/opt/fzf
 " Ctrl-P to search files
 map <C-P> :GFiles<CR>
 " Ctrl-F to search
