@@ -1,5 +1,18 @@
 {
   // Disable selecting first option in autocomplete
   "suggest.noselect": true,
-  "suggest.enablePreselect": false
+  "suggest.enablePreselect": false,
+  // Disable coc-tsserver formatting
+  "typescript.format.enable": false,
+  "javascript.format.enable": false,
+  // Disable auto closing JSX tags
+  "typescript.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  // Enable format on save
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }

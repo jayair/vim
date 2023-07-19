@@ -1,6 +1,4 @@
-if has("gui_running")
 colorscheme nord
-endif
 
 " fzf.vim
 " set rtp+=/opt/homebrew/opt/fzf
@@ -51,9 +49,8 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 
-" Prettier format on save
-let g:prettier#autoformat = 1
-let g:prettier#autoformat_require_pragma = 0
+" coc.vim extensions
+let g:coc_global_extensions = ['coc-prettier', 'coc-tsserver']
 
 " coc.vim helpers
 " https://github.com/neoclide/coc.nvim#example-vim-configuration
