@@ -4,11 +4,11 @@ colorscheme nord
 " set rtp+=/opt/homebrew/opt/fzf
 set rtp+=/usr/local/opt/fzf
 " Ctrl-P to search files
-map <C-P> :GFiles<CR>
+map <C-P> :Files<CR>
 " Ctrl-F to search
 map <C-F> :Rg<CR>
 " Remap :Sex to :S, instead of :Snippets
-command S Sex
+command! S Sex
 
 " Font
 set guifont=SF\ Mono:h12
