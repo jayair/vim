@@ -36,6 +36,9 @@ set incsearch
 " Error bells
 set belloff=all
 
+" Spell-check markdown files
+autocmd BufRead,BufNewFile *.md setlocal spell
+
 " Status bar
 if has("gui_running")
   set ruler
