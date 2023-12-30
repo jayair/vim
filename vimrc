@@ -52,6 +52,9 @@ map <C-F> :Rg<CR>
 " Remap :Sex to :S, instead of :Snippets
 command! S Sex
 
+" vim-astro
+let g:astro_typescript = 'enable'
+
 " coc.vim extensions
 let g:coc_global_extensions = ['coc-prettier', 'coc-tsserver']
 

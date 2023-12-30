@@ -40,3 +40,16 @@ My personal vim setup for the Mac. Uses [MacVim](https://macvim.org). Support fo
 
    - Install with [native package manager](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim#using-vim8s-native-package-manager)
    - Add [coc-tsserver](https://github.com/neoclide/coc-tsserver) and [coc-prettier](https://github.com/neoclide/coc-prettier) with `let g:coc_global_extensions = ['coc-prettier', 'coc-tsserver']`
+
+8. Add Astro support
+
+   - Install [vim-astro](https://github.com/wuelnerdotexe/vim-astro)
+     ```
+     cd ~/.vim/pack/plugins/start/
+     git clone https://github.com/wuelnerdotexe/vim-astro.git
+     ```
+   - Install [coc-astro](https://github.com/yaegassy/coc-astro)
+     ```
+     :CocInstall @yaegassy/coc-astro
+     ```
+
