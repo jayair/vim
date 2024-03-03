@@ -25,8 +25,10 @@ set incsearch
 " Error bells
 set belloff=all
 
-" Spell-check markdown files
+" Markdown files
 autocmd BufRead,BufNewFile *.md setlocal spell
+" Set .mdx as markdown
+au BufRead,BufNewFile *.mdx set filetype=markdown
 
 " Spaces
 set tabstop=2
@@ -51,6 +53,9 @@ map <C-P> :GFiles<CR>
 map <C-F> :Rg<CR>
 " Remap :Sex to :S, instead of :Snippets
 command! S Sex
+
+" Copilot
+let g:copilot_workspace_folders = ["~/Desktop/Projects"]
 
 " vim-astro
 let g:astro_typescript = 'enable'
