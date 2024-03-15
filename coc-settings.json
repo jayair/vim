@@ -5,6 +5,8 @@
   // Disable coc-tsserver formatting
   "typescript.format.enable": false,
   "javascript.format.enable": false,
+  // Use local tsserver
+  "tsserver.useLocalTsdk": true,
   // Disable auto closing JSX tags
   "typescript.autoClosingTags": false,
   "javascript.autoClosingTags": false,
@@ -14,5 +16,6 @@
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "tsserver.tsdk": "/Users/jayair/.config/coc/extensions/node_modules/coc-tsserver/node_modules/typescript/lib"
 }
