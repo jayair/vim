@@ -5,6 +5,8 @@
   // Disable coc-tsserver formatting
   "typescript.format.enable": false,
   "javascript.format.enable": false,
+  // Use local tsserver
+  "tsserver.useLocalTsdk": true,
   // Disable auto closing JSX tags
   "typescript.autoClosingTags": false,
   "javascript.autoClosingTags": false,
